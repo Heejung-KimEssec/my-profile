@@ -1,0 +1,117 @@
+body {
+	background-image: url(image/defocused.jpg);
+	background-size: cover;
+	color: rgb(20,20,20);
+	font-family: 'Montserrat';
+	font-size: 16px;
+}
+
+h2, a{
+	font-family: 'Simonetta';
+}
+
+h1{
+	color: #feb72b;
+	font-weight: 500;
+	letter-spacing: 10px;
+	font-size: 60px;
+	font-family: Nanum Pen Script
+}
+h2{
+	color: rgb(100,100,100);
+	font-size: 30px;
+	font-weight: 300;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+a:hover{
+	color: purple;
+}
+
+h3{
+	font-family: 'Shadows Into Light';
+	font-size: 25px;
+}
+
+img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.card-white{
+	background: #f1f9f9;
+	padding: 40px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.btn-color{
+	text-decoration: none;
+	background-color: #f4eeff;
+	color: #c81912;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-color:hover {
+	background-color: #feb72b;
+	color: #c81912;
+}
+
+.followme-color:{
+	color: purple
+}
+
+.followme-color:hover{
+	color: #feb72b;
+}
+
+.img-square{
+	width: 180px;
+	border-radius: 10px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px.
+}
+
+.list-inline i{
+	width: 40px;
+	font-size: 30px;
+}
+
+#intro p{
+	margin-bottom: 35px;
+}
+
+@media (max-width: 760px){
+	.container{ width: 600px }
+}
+
+@media (max-width: 500px){
+	.container{width: 400px}
+}
+
+
+
+
+
+
+
+
